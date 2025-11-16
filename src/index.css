@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary Colors */
+  --bg-dark: #0a1929;
+  --bg-medium: #1a2332;
+  --bg-light: #0d1b2a;
+
+  /* Accent Colors */
+  --accent-cyan: #00d9ff;
+  --accent-green: #00ff88;
+  --accent-cyan-rgb: 0, 217, 255;
+  --accent-green-rgb: 0, 255, 136;
+
+  /* Text Colors */
+  --text-primary: #e0f2fe;
+  --text-secondary: #7dd3fc;
+  --text-tertiary: #475569;
+
+  /* Glass Colors */
+  --glass-bg: rgba(0, 217, 255, 0.05);
+  --glass-border: rgba(0, 217, 255, 0.2);
+  --glass-hover: rgba(0, 217, 255, 0.1);
+  --glass-accent: rgba(0, 217, 255, 0.15);
+
+  /* Font Families */
+  --font-header: 'JetBrains Mono', 'Space Mono', 'Courier New', monospace;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #0a1929 0%, #1a2332 50%, #0d1b2a 100%);
+  background-attachment: fixed;
+  color: var(--text-secondary);
+  overflow-x: hidden;
+}
+
+/* Custom cursor styles */
+* {
+  cursor: none !important;
+}
+
+/* Glass card hover effects */
+.glass-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 217, 255, 0.1),
+    transparent
+  );
+  transition: left 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+.glass-card:hover::before {
+  left: 100%;
+}
+
+/* Accessibility - Respect motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-cyan);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-green);
+}
