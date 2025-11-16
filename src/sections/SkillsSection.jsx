@@ -3,8 +3,8 @@ import FadeInSection from '../components/FadeInSection';
 const SkillsSection = () => {
   const skills = {
     Languages: ['Python', 'C', 'C++', 'Java', 'JavaScript', 'TypeScript', 'SQL', 'Bash'],
-    Frameworks: ['Sanic', 'Django', 'Flask', 'React', 'Node.js', 'Express', 'Langchain'],
-    Tools: ['PostgreSQL', 'MongoDB', 'Redis', 'Docker', 'Terraform', 'AWS', 'GCP'],
+    'Frameworks & Libraries': ['Sanic', 'Django', 'Flask', 'React', 'Node.js', 'Express', 'NumPy', 'Scikit-learn', 'JUnit', 'Selenium', 'Langchain'],
+    'Tools & Platforms': ['PostgreSQL', 'MongoDB', 'Redis', 'Git', 'Docker', 'Terraform', 'Datadog', 'AWS', 'GCP'],
   };
 
   return (

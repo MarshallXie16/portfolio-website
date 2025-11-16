@@ -1,4 +1,4 @@
-# Marshall Chen - Portfolio Website
+# Marshall Xie - Portfolio Website
 
 A modern, terminal-themed portfolio website built with React, featuring glassmorphism design and smooth animations.
 
@@ -50,6 +50,7 @@ portfolio-website/
 │   ├── sections/          # Page sections
 │   │   ├── AboutSection.jsx
 │   │   ├── ContactSection.jsx
+│   │   ├── EducationSection.jsx
 │   │   ├── ExperienceSection.jsx
 │   │   ├── HeroSection.jsx
 │   │   ├── ProjectsSection.jsx
@@ -70,9 +71,10 @@ portfolio-website/
 1. **Hero** - Full-screen introduction with terminal prompt and info cards
 2. **About** - Code-formatted bio showcasing developer profile
 3. **Skills** - Categorized technical skills with badges
-4. **Experience** - Work history with expandable details
-5. **Projects** - Featured projects with tech stacks
-6. **Contact** - Social links and email CTA
+4. **Experience** - Work history with expandable details (Dialpad, Synertree)
+5. **Projects** - Featured projects (PocketAI, Datastore ORM, Task Handler Migration)
+6. **Education** - UBC degree info, coursework, and awards
+7. **Contact** - Social links and email CTA
 
 ## 🎨 Color Palette
 
@@ -113,7 +115,7 @@ MIT License - Feel free to use this template for your own portfolio!
 
 ## 🙋‍♂️ Author
 
-**Marshall Chen**
+**Marshall Xie**
 - Email: marshallxie16@gmail.com
 - GitHub: [@MarshallXie16](https://github.com/MarshallXie16)
 - LinkedIn: [marshallxie](https://linkedin.com/in/marshallxie)

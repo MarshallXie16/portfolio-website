@@ -15,16 +15,17 @@ const AboutSection = () => {
               }}
             >
               <span style={{ color: '#00d9ff' }}>const</span> marshall = {'{'}{'\n'}
-              {'  '}education: <span style={{ color: '#00ff88' }}>"UBC Business & CS '27"</span>,{'\n'}
-              {'  '}currentRole: <span style={{ color: '#00ff88' }}>"Backend SWE @ Dialpad"</span>,{'\n'}
-              {'  '}experience: <span style={{ color: '#00ff88' }}>"12+ months"</span>,{'\n'}
-              {'  '}interests: [<span style={{ color: '#00ff88' }}>"Infrastructure"</span>, <span style={{ color: '#00ff88' }}>"AI/ML"</span>, <span style={{ color: '#00ff88' }}>"Startups"</span>],{'\n'}
+              {'  '}education: <span style={{ color: '#00ff88' }}>"UBC Commerce - Business & CS '27"</span>,{'\n'}
+              {'  '}currentRole: <span style={{ color: '#00ff88' }}>"Backend SWE Co-op @ Dialpad"</span>,{'\n'}
+              {'  '}experience: <span style={{ color: '#00ff88' }}>"2+ years (May 2023 - Present)"</span>,{'\n'}
+              {'  '}awards: [<span style={{ color: '#00ff88' }}>"Presidential Scholars"</span>, <span style={{ color: '#00ff88' }}>"Trek Scholarship"</span>, <span style={{ color: '#00ff88' }}>"Top 5%"</span>],{'\n'}
               {'  '}achievements: {'{'}{'\n'}
-              {'    '}costReduction: <span style={{ color: '#00ff88' }}>"$12K/month"</span>,{'\n'}
+              {'    '}costReduction: <span style={{ color: '#00ff88' }}>"$12K/month infrastructure savings"</span>,{'\n'}
               {'    '}scale: <span style={{ color: '#00ff88' }}>"796M requests/month"</span>,{'\n'}
-              {'    '}impact: <span style={{ color: '#00ff88' }}>"450+ engineers, 70K+ businesses"</span>{'\n'}
+              {'    '}impact: <span style={{ color: '#00ff88' }}>"450+ engineers, 70K+ businesses"</span>,{'\n'}
+              {'    '}engagement: <span style={{ color: '#00ff88' }}>"20% increase via ML recommendations"</span>{'\n'}
               {'  '}{'}'},{'\n'}
-              {'  '}lookingFor: <span style={{ color: '#00ff88' }}>"Summer 2026 SWE/SRE roles"</span>{'\n'}
+              {'  '}status: <span style={{ color: '#00ff88' }}>"Open to New Grad SWE/SRE roles"</span>{'\n'}
               {'}'};
             </pre>
           </GlassCard>

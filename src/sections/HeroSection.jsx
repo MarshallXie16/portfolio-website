@@ -14,7 +14,7 @@ const HeroSection = () => {
         <AnimatedHeroText>
           MARSHALL
           <br />
-          <span style={{ color: '#00d9ff' }}>CHEN_</span>
+          <span style={{ color: '#00d9ff' }}>XIE_</span>
         </AnimatedHeroText>
 
         {/* Subtitle */}

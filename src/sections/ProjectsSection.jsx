@@ -57,22 +57,22 @@ const ProjectCard = ({ title, description, tech, type }) => {
 const ProjectsSection = () => {
   const projects = [
     {
-      title: 'AI Transcription Pipeline',
-      description: 'Optimized high-throughput AI transcription system handling 796M requests/month. Implemented intelligent caching and async processing to reduce costs by $12K/month while maintaining 99.9% uptime.',
-      tech: ['Python', 'Sanic', 'Redis', 'PostgreSQL', 'Docker'],
-      type: 'WORK'
-    },
-    {
-      title: 'Infrastructure Dashboard',
-      description: 'Built Chrome extension and Django API enabling 450+ engineers to query and visualize infrastructure data. Features real-time monitoring, custom alerts, and comprehensive logging.',
-      tech: ['Django', 'JavaScript', 'PostgreSQL', 'Chrome API'],
-      type: 'WORK'
-    },
-    {
-      title: 'PocketAI',
-      description: 'AI-powered research assistant using LangChain and RAG architecture. Implements intelligent document processing, semantic search, and context-aware responses for academic research.',
-      tech: ['Python', 'LangChain', 'OpenAI', 'Vector DB', 'FastAPI'],
+      title: 'PocketAI - Personalized Agentic Assistant',
+      description: 'Full-stack AI assistant with Google OAuth authentication, subscription management via Stripe, and integrations with Google Calendar, Gmail, and Todoist APIs. Features emotion classification with TTS models and 3 fine-tuned AI models with unique personalities. Achieves 90% accuracy in interpreting user intentions using function calling and MoE prompting.',
+      tech: ['Python', 'Flask', 'PostgreSQL', 'Redis', 'Pinecone', 'Stripe API', 'GCP', 'AWS S3', 'TailwindCSS'],
       type: 'PROJECT'
+    },
+    {
+      title: 'Datastore ORM Infrastructure',
+      description: 'Designed and shipped core features (TTL, query explain, metrics/logging) for internal ORM used by 450+ engineers. Built an agentic code reviewer that flags anti-patterns and suggests optimizations. Delivered documentation and best practices presentations to entire engineering org.',
+      tech: ['Python', 'Django', 'PostgreSQL', 'GCP Datastore', 'Datadog'],
+      type: 'WORK'
+    },
+    {
+      title: 'Async Task Handler Migration',
+      description: 'Architected and implemented async migration for high-traffic task handlers processing ~796M requests/month. Reduced infrastructure costs by $12K/month through intelligent caching and async processing optimizations.',
+      tech: ['Python', 'Sanic', 'Redis', 'PostgreSQL', 'Docker', 'AWS'],
+      type: 'WORK'
     }
   ];
 

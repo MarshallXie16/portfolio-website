@@ -95,30 +95,29 @@ const ExperienceSection = () => {
   const experiences = [
     {
       company: 'Dialpad',
-      role: 'Backend Software Engineer',
-      duration: 'May 2024 - Present',
+      role: 'Backend Software Engineer Co-op',
+      duration: 'Jan 2025 - Present',
       location: 'Vancouver, BC',
       isCurrent: true,
       bullets: [
-        'Optimized AI transcription pipeline reducing costs by $12K/month while handling 796M requests/month',
-        'Built async Sanic microservice with PostgreSQL and Redis, improving response time by 40%',
-        'Developed Chrome extension and Django API enabling 450+ engineers to efficiently query and visualize infrastructure data',
-        'Implemented comprehensive logging, monitoring, and alerting systems for production services'
+        'Designed and shipped core features (TTL, query explain, metrics/logging) for Datastore ORM used by 450+ engineers, improving developer experience and reliability for projects serving 70,000+ businesses',
+        'Authored comprehensive documentation on Datastore and delivered 2 best practices presentations to the entire engineering org. Built an agentic code reviewer that flags anti-patterns and suggests optimizations',
+        'Architected and implemented async migration for high-traffic task handlers (~796M req/month), reducing infrastructure costs by $12K/month, and proposed a new handler design to enable future async migration'
       ],
-      tech: ['Python', 'Sanic', 'Django', 'PostgreSQL', 'Redis', 'Docker', 'AWS']
+      tech: ['Python', 'Sanic', 'Django', 'PostgreSQL', 'Redis', 'Docker', 'Datadog', 'AWS', 'GCP']
     },
     {
-      company: 'Synertree',
-      role: 'Software Engineer Intern',
-      duration: 'Jan 2024 - Apr 2024',
-      location: 'Victoria, BC',
+      company: 'Synertree CMS',
+      role: 'Software Development Intern',
+      duration: 'May 2023 - Apr 2024',
+      location: 'Vancouver, BC',
       isCurrent: false,
       bullets: [
-        'Developed full-stack SaaS platform using React and Django for healthcare data management',
-        'Implemented CI/CD pipelines and automated testing infrastructure',
-        'Collaborated with cross-functional teams to deliver features impacting 70K+ businesses'
+        'Proposed and developed a collaborative filtering recommendation algorithm using NumPy, Pandas, and Scikit-learn, increasing user engagement by 20% and conversion rates by 15%',
+        'Designed and implemented an automated email newsletter system using Celery for scheduling and SendGrid API to deliver personalized business listing recommendations to clients',
+        'Collaborated on development of the company website backend, using Django, PostgreSQL, REST APIs. Managed the full deployment process on Heroku, setting up CI/CD pipelines and configuring env variables'
       ],
-      tech: ['React', 'Django', 'PostgreSQL', 'Docker', 'GCP']
+      tech: ['Django', 'PostgreSQL', 'Python', 'NumPy', 'Pandas', 'Scikit-learn', 'Celery', 'Heroku']
     }
   ];
 
